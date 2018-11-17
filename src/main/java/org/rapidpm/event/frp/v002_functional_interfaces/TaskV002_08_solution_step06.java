@@ -26,5 +26,4 @@ public class TaskV002_08_solution_step06 {
         } , toList()))
     .forEach((k,v) -> v.forEach(out::println));
   }
-
 }
