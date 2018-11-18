@@ -35,18 +35,18 @@
     </snapshotRepository>
   </distributionManagement>
 
-  <dependencyManagement>
-    <dependencies>
-      <!--Vaadin -->
-      <dependency>
-        <groupId>com.vaadin</groupId>
-        <artifactId>vaadin-bom</artifactId>
-        <version>${vaadin.version}</version>
-        <type>pom</type>
-        <scope>import</scope>
-      </dependency>
-    </dependencies>
-  </dependencyManagement>
+  <!--<dependencyManagement>-->
+    <!--<dependencies>-->
+      <!--&lt;!&ndash;Vaadin &ndash;&gt;-->
+      <!--<dependency>-->
+        <!--<groupId>com.vaadin</groupId>-->
+        <!--<artifactId>vaadin-bom</artifactId>-->
+        <!--<version>${vaadin.version}</version>-->
+        <!--<type>pom</type>-->
+        <!--<scope>import</scope>-->
+      <!--</dependency>-->
+    <!--</dependencies>-->
+  <!--</dependencyManagement>-->
 
   <dependencies>
     <dependency>
@@ -64,10 +64,12 @@
     <dependency>
       <groupId>org.slf4j</groupId>
       <artifactId>slf4j-api</artifactId>
+      <version>1.7.25</version>
     </dependency>
     <dependency>
       <groupId>org.slf4j</groupId>
       <artifactId>slf4j-simple</artifactId>
+      <version>1.7.25</version>
     </dependency>
 
   </dependencies>
